@@ -1,0 +1,49 @@
+name: home_env
+channels:
+- conda-forge
+- defaults
+#- r
+dependencies:
+- pip>=23.0
+- python=3.11
+- astropy
+- astroquery
+- dask
+- emcee
+- george
+- gplearn
+- matplotlib
+- nbconvert
+- notebook
+- numpy
+- pandas
+- pmdarima
+- pytest
+- python-graphviz
+- pyyaml
+- scikit-fda
+- scikit-image
+- scikit-learn
+- scipy
+- seaborn
+- statsmodels
+- umap-learn
+- urllib3
+#- yaml
+#- r=3.6.0
+#- r-base
+#- r-irkernel
+#- bokeh
+#- ccdproc
+#- ginga
+#- hdbscan
+#- plotly
+- pip:
+    - corner
+    - minisom
+    - tensorflow-macos
+    - tensorflow-metal
+    - torch
+    - torchaudio
+    - torchtext
+    - torchvision

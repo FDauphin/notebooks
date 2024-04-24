@@ -1,0 +1,39 @@
+name: home_conda
+channels:
+- conda-forge
+- defaults
+dependencies:
+- pip>=23.0
+- python=3.11
+- astropy
+- astroquery
+- astropy::corner
+- dask
+- emcee
+- george
+- gplearn
+- matplotlib
+- nbconvert
+- notebook
+- numpy
+- pandas
+- pmdarima
+- pytest
+- python-graphviz
+- pytorch::pytorch
+- pytorch::torchaudio
+- pytorch::torchtext
+- pytorch::torchvision
+- pyyaml
+- scikit-fda
+- scikit-image
+- scikit-learn
+- scipy
+- seaborn
+- statsmodels
+- umap-learn
+- urllib3
+- pip:
+    - minisom
+    - tensorflow-macos
+    - tensorflow-metal

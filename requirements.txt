@@ -1,0 +1,32 @@
+# conda create -n home_pip python=3.11 pip
+astropy
+astroquery
+corner
+dask
+emcee
+george
+gplearn
+graphviz
+matplotlib
+minisom
+nbconvert
+notebook
+numpy
+pandas
+pmdarima
+pytest
+pyyaml
+#conda install -c conda-forge scikit-fda
+scikit-image
+scikit-learn
+scipy
+seaborn
+statsmodels
+tensorflow-macos
+tensorflow-metal
+torch
+torchaudio
+torchtext
+torchvision
+umap-learn
+urllib3
