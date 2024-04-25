@@ -55,6 +55,7 @@ conda env create -f environment_conda.yml
 
 # create pip env
 conda create -n home_pip python=3.11 pip
+conda activate home_pip
 pip install -r requirements.txt
 conda install -c conda-forge scikit-fda
 ```
