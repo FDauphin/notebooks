@@ -11,7 +11,7 @@ CGAN paper:
 https://arxiv.org/abs/1411.1784
 
 Most of source code from:
-https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/GANs/4.%20WGAN-GP/train.py
+https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/GANs/4.%20WGAN-GP/model.py
 
 I used a 2021 Mac M1 with my environment in the repository built on the 2020 
 MacOSX Intel Miniconda. Training took approximately one hour.
