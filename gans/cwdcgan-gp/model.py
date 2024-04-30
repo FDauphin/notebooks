@@ -140,7 +140,7 @@ class Generator(nn.Module):
         self.gen = nn.Sequential(# channel_noise x 1 x 1
             self.block1, # 128 x 3 x 3
             self.block2, # 64 x 7 x 7
-            self.block3, # 8 x 14 x 14
+            self.block3, # 32 x 14 x 14
             self.block4  # 1 x 28 x 28
         )
 
