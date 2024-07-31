@@ -14,6 +14,9 @@ Any applicable credits are within the notebooks, scripts, and modules. Includes:
     - General tutorial with derivations
     - xsinx using scikit learn
     - xsinx using MCMC
+- JWST
+    - Making source cutouts from a Webb public release observation
+    - Analyze source cutouts using PCA, KMeans, and KDE
 - Miscellaneous
     - Self organizing maps
     - Symbolic regression with Newtonian gravity
@@ -36,6 +39,8 @@ Any applicable credits are within the notebooks, scripts, and modules. Includes:
         - Fast Fourier Transform
         - Lomb Scargle Periodograms
         - Phase folding
+- UNET
+    - Training and evaluating
 
 ## Installations
 
