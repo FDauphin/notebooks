@@ -12,12 +12,15 @@ dependencies:
 - emcee
 - george
 - gplearn
+- hdbscan
 - matplotlib
 - nbconvert
+- nltk # >>> nltk.download('words')
 - notebook
 - numpy
 - pandas
 - pmdarima
+- pymupdf
 - pytest
 - python-graphviz
 - pyyaml
@@ -26,7 +29,9 @@ dependencies:
 - scikit-learn
 - scipy
 - seaborn
+- spacy # python -m spacy download en_core_web_lg
 - statsmodels
+- transformers
 - umap-learn
 - urllib3
 #- yaml
@@ -36,14 +41,17 @@ dependencies:
 #- bokeh
 #- ccdproc
 #- ginga
-#- hdbscan
 #- plotly
 - pip:
+    - accelerate #hf
     - corner
+    - faiss-cpu #hf
     - minisom
+    - phate
     - tensorflow-macos
     - tensorflow-metal
     - torch
     - torchaudio
     - torchtext
     - torchvision
+    - zstandard #hf
