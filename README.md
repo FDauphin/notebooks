@@ -23,6 +23,10 @@ Any applicable credits are within the notebooks, scripts, and modules. Includes:
     - Stochastic gradient descent on linear regression
     - Principal component analysis on double gaussians
     - Kernel density estimation
+    - Genetic algorithms
+- NLP
+    - [HuggingFace NLP/LLM Tutorial](https://huggingface.co/learn/llm-course/chapter1/1) notebooks
+    - spaCy dictionary visualization using dimensionality reduction
 - Tensorflow
     - ResNet classification
     - Time series regression
